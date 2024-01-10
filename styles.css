@@ -1,0 +1,57 @@
+h1, h2, h3, h5, .menu {
+
+font-family: 'Gayathri', sans-serif;
+font-weight: lighter;
+
+}
+
+h1 {
+font-size: 5.5cqw;
+color: white;
+}
+
+h2 {
+font-size: 4cqw;
+color: white;
+}
+
+h3, .tilbage {
+font-size: 3cqw;
+color: white; 
+}
+
+h5, .hover_white_footer {
+font-size: 2.5cqw; 
+}
+
+p, li {
+font-size: 1.5cqw;  
+color: white;
+font-family: 'Poppins', sans-serif;
+font-weight: lighter;
+}
+
+.hover_white, .a_ret {
+color: var(--primary_g);
+transition: color 0.3s;
+font-family: 'Gayathri', sans-serif;
+font-weight: lighter;
+}
+
+.hover_white:hover, .a_ret:hover {
+color: white; 
+cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) { 
+p, li {
+font-size: 2.5cqw;  
+}
+
+.li_menu {
+   font-size: 2.5cqw;   
+}
+
+}
+
+
